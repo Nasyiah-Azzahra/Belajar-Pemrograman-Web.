@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Praktikum CSS Margin</title>
+	<style>
+		p 
+		{
+			background-color: yellow;
+		}
+
+		p.ex 
+		{
+			border:1px solid red;
+			margin-top: 100px;
+			margin-bottom: 100px;
+			margin-right: 150px;
+			margin-left: 80px;
+		}
+		
+		div.container 
+		{
+			border: 1px solid red;
+			margin-left: 100px;
+		}
+
+		p.one 
+		{
+			margin-left: inherit;
+		}
+	</style>
+</head>
+<body>
+	<h2>Use of the inherit Value</h2>
+	<p>Let the left margin be inherited from the parent element:</p>
+	<div class="container">
+	<p class="one">This is a paragraph with an inherited left margin (from the div element).</p>
+	</div>
+	
+	<h2>Using Individual margin Properties:</h2>
+	<p>This is a paragraph with no specified margins.</p>
+	<p class="ex">This paragraph has a top and bottom margin of 100px, a left margin of 80px, and a right margin of 150px.</p>
+</body>
+</body>
+</html>
