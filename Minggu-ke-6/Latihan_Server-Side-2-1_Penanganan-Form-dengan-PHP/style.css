@@ -1,0 +1,26 @@
+table, td{
+	border-collapse:collapse;
+	border: 1px solid black;
+	padding:15px;
+}
+
+input[type=number]{
+	padding: 7px;
+	margin: 4px 2px;
+}
+
+input[type=text]{
+	padding: 7px;
+	margin: 4px 2px;
+}
+
+select{
+	padding: 7px;
+	margin: 4px 2px;
+}
+
+button[type=submit]{
+	padding: 7px;
+	margin: 4px 2px;
+	width:80px;
+}
