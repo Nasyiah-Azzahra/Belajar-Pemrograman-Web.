@@ -1,0 +1,8 @@
+Time : 02:14:08
+SQLSTATE[HY000] [1049] Unknown database 'db_toko'
+
+Time : 02:13:31
+SQLSTATE[HY000] [1049] Unknown database 'db_toko'
+
+Time : 02:11:35
+SQLSTATE[HY000] [1049] Unknown database 'db_toko'
